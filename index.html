@@ -27,15 +27,7 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-              </ul>
-      </div>
+
     </div>
   </nav>
 
@@ -54,52 +46,56 @@
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="assets/img/plex.png" alt="">
+          <a href="https://app.plex.tv/desktop" target="_blank">
+          <img class="card-img-top" src="assets/img/plex.png" alt="Plex Media Server" ></a>
           <div class="card-body">
             <h4 class="card-title">Plex</h4>
             <p class="card-text">Plex Media Server</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+            <a href="https://app.plex.tv/desktop" class="btn btn-primary" target="_blank">Access Plex</a>
           </div>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="assets/img/sonarr.jpg" alt="">
+          <a href="http://192.168.0.7:8989/" target="_blank">
+          <img class="card-img-top" src="assets/img/sonarr.jpg" alt="Sonar Drive In"></a>
           <div class="card-body">
             <h4 class="card-title">Sonarr</h4>
             <p class="card-text">Sonarr TV show Manager</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+            <a href="http://192.168.0.7:8989/" class="btn btn-primary"  target="_blank"  >Access Sonarr</a>
           </div>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="assets/img/radarr.png" alt="">
+          <a href="http://192.168.0.7:7878" target="_blank">
+          <img class="card-img-top" src="assets/img/radarr.png" alt="Radarr Drive In Movies"></a>
           <div class="card-body">
             <h4 class="card-title">Radarr</h4>
             <p class="card-text">Radarr Movie Manager</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+            <a href="http://192.168.0.7:7878" class="btn btn-primary" target="_blank">Access Radarr</a>
           </div>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="assets/img/lidarr.png" alt="">
+          <a href="http://192.168.0.7:8686" target="_blank">
+          <img class="card-img-top" src="assets/img/lidarr.png" alt="Liddar Jukebox Drive in"></a>
           <div class="card-body">
             <h4 class="card-title">Lidarr</h4>
             <p class="card-text">Lidarr Music Manager</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+            <a href="http://192.168.0.7:8686" class="btn btn-primary" target="_blank">Access Lidarr</a>
           </div>
         </div>
       </div>
@@ -110,51 +106,78 @@
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="assets/img/sabnzbd.png" alt="">
+          <a href="http://192.168.0.7:9080" target="_blank">
+          <img class="card-img-top" src="assets/img/sabnzbd.png" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">Sabnzbd</h4>
             <p class="card-text">Usenet Downloader</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+            <a href="http://192.168.0.7:9080" target="_blank" class="btn btn-primary">Access Sabnzbd</a>
           </div>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="assets/img/1024px-New_qBittorrent_Logo.svg.png" alt="">
+          <a href="http://192.168.0.7:8080" target="_blank">
+          <img class="card-img-top" src="assets/img/qBittorrent.svg.png" alt="Bit Torrent Client"></a>
           <div class="card-body">
             <h4 class="card-title">Qbittorrent</h4>
             <p class="card-text">Torrent CLient</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+            <a href="192.168.0.7:8080" class="btn btn-primary" target="_blank">Access QBitTorrent</a>
           </div>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="assets/img/jackett.png" alt="">
+          <a href="http://192.168.0.7:9117">
+          <img class="card-img-top" src="assets/img/jackett.png" alt="Jacket Torrent API"></a>
           <div class="card-body">
             <h4 class="card-title">Jackett</h4>
             <p class="card-text">Torrent API Service</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+            <a href="http://192.168.0.7:9117" class="btn btn-primary" target="_blank">Access Jackett</a>
           </div>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="assets/img/Fedora.png" alt="">
+          <a href="https://192.168.0.7:9090" target="_blank">
+          <img class="card-img-top" src="assets/img/Fedora.png" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">Fedora Server</h4>
             <p class="card-text">Web Console</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+            <a href="https://192.168.0.7:9090" target="_blank" class="btn btn-primary">Access Fedora Web</a>
           </div>
         </div>
+      </div>
+      </div>
+
+      <div class="row text-center">
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card h-100">
+            <a href="http://192.168.0.7:8181/" target="_blank">
+            <img class="card-img-top" src="assets/img/tautulli.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">Tautulli</h4>
+              <p class="card-text">Tautulli Monitor</p>
+            </div>
+            <div class="card-footer">
+              <a href="http://192.168.0.7:8181/" target="_blank" class="btn btn-primary">Access Tautulli</a>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
       </div>
     <!-- /.row -->
 
